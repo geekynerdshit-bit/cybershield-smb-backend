@@ -19,7 +19,8 @@ app.add_middleware(
         "http://localhost:5173",    # Vite dev server
         "http://localhost:3000",
         "https://*.vercel.app",
-        "https://cybershield-smb-frontend.vercel.app",     # All Vercel preview + production deploys
+        "https://cybershield-smb-frontend-fl8owsupw-harshit-johris-projects.vercel.app/",
+        "https://cybershield-smb-frontend.vercel.app"     # All Vercel preview + production deploys
     ],
     allow_credentials=True,
     allow_methods=["*"],
